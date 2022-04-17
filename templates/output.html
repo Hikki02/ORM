@@ -6,5 +6,12 @@
 </head>
 <body>
 {{ posts }}
+
+{% for i in posts %}
+
+    <div> {{ i.first_name }} - {{ i.age }}</div>
+
+{% endfor %}
+
 </body>
 </html>
